@@ -1,0 +1,79 @@
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.icons {
+    text-align: center;
+    padding: 10px;
+    flex-grow: 1; /* Allow the icons to grow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7b85f9;
+}
+
+.logo {
+    flex-grow: 2; 
+    font-weight: bold; 
+    font-size: 1.5em; 
+    font-family: "Arial", sans-serif;
+    justify-content: flex-start;
+}
+
+.logo > img {
+    width: 2rem;
+}
+
+/* Apply hover effect only to .icons, excluding .logo */
+.icons:not(.logo):hover {
+    background-color: #d4f1f4;
+    border-radius: 50px 50px 0 0;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.drop-down-button {
+    position: relative;
+}
+
+.drop-down-menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #afb5fb;
+    border: 0.01rem solid #dfe1fd;
+    border-radius: 10px;
+    top: 50px;
+    width: 10rem;
+    color: black;
+    overflow-wrap: break-word;
+    padding: 0.5rem;
+    z-index: 1000; 
+    user-select: none;
+}
+
+.drop-down-menu > div {
+    color: black;
+}
+
+.drop-down-menu > a {
+    color: inherit; /* Ensure link color matches */
+    text-decoration: none; /* Remove underline */
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.drop-down-menu > a:hover {
+    background-color: #d4f1f4; 
+}
+
+
+
+
+
+
+
+
+

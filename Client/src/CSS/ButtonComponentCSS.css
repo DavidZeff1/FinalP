@@ -1,0 +1,12 @@
+.next-class-card-body-button{
+    background-color: #189ab4;
+    color: rgb(255, 255, 255);
+    width: 8rem;
+    height: 2rem;
+    border-radius: 20px;
+    border: none;
+}
+.next-class-card-body-button:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}

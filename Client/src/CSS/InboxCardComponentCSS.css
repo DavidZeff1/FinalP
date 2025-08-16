@@ -1,0 +1,42 @@
+
+.inbox-card-header {
+    display: flex;
+    align-items: center; /* Vertically align icon and text */
+    gap: 10px; /* Space between icon and text */
+}
+.inbox-card-body-item-title{
+    display: flex;
+    justify-content: space-between;
+}
+.inbox-card-body-item{
+    display: flex;
+}
+.inbox-card-body-item-name{
+    color: rgb(47, 46, 46);
+    font-size: medium;
+    font-weight: 600;
+    margin: 0.5rem;
+}
+.inbox-card-body-item-time{
+    color: rgb(192, 192, 192);
+    font-size: small;
+    margin: 0.5rem;
+    font-weight: 200;
+    float: inline-end;
+}
+.inbox-card-body-item-text{
+    color: rgb(150, 148, 148);
+    font-size: 1rem;
+    margin: 0.5rem;
+    font-weight: 400;
+}
+.inbox-card-body-item{
+    border: solid rgb(161, 161, 161) 1px;
+    border-radius: 10px;
+    margin-bottom: 1rem;;
+}
+.inbox-card-body-item-img{
+    height: 3rem;
+    width: 4rem;
+    border-radius: 50px;
+}

@@ -1,0 +1,33 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.opening-description {
+  align-self: flex-start;
+  flex: 1;
+  max-width: 40rem;
+  padding: 2rem;
+}
+
+.opening-description-body {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.opening-description-footer {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #777;
+}
+
+.opening-img {
+  align-self: flex-start;
+  flex: 1;
+  max-width: 37rem;
+  width: 100%;
+}

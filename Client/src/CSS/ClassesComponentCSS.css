@@ -1,0 +1,80 @@
+.class-container {
+  margin-left: 4rem;
+  position: relative;
+}
+.class-container-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.add-course-form-container {
+  margin-top: 20px;
+  position: absolute;
+
+  width: 20rem;
+  height: 25rem;
+  background-color: #62d4ea;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  text-align: center;
+  left: 30rem;
+}
+
+.add-course-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.add-course-form label {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-course-form button {
+  background-color: #447b86;
+  color: rgb(255, 255, 255);
+  width: 8rem;
+  height: 2rem;
+  border-radius: 20px;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.drag-drop-area {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: border-color 0.3s ease-in-out;
+  background-color: white;
+}
+
+.drag-drop-area:hover {
+  border-color: #888;
+}
+
+.drag-drop-area img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+.topic-card-slot {
+  position: relative;
+}
+
+.card-link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.topic-card-options {
+  z-index: 2;
+}

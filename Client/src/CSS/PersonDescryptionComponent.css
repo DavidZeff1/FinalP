@@ -1,0 +1,40 @@
+.dashboard {
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .bar-row {
+    margin-bottom: 8px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 0.9em;
+  }
+  
+  .bar-container {
+    background: #eee;
+    height: 12px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .bar {
+    height: 100%;
+    background: #4caf50;
+  }
+  
+  .bar.concept {
+    background: #ff9800;
+  }
+  
+  .bar.subtopic {
+    background: #9c27b0;
+  }
+  
+  .missed-list {
+    padding-left: 1em;
+    list-style-type: disc;
+  }
+  

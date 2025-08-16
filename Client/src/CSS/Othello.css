@@ -1,0 +1,35 @@
+.othello-game {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(8, 40px);
+    grid-template-rows: repeat(8, 40px);
+    gap: 2px;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  
+  .cell {
+    width: 40px;
+    height: 40px;
+    background-color: #388e3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #2e7d32;
+  }
+  
+  .cell-x {
+    background-color: black;
+    border-radius: 50%;
+  }
+  
+  .cell-o {
+    background-color: white;
+    border-radius: 50%;
+  }
+  

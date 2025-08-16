@@ -1,0 +1,44 @@
+.login-container {
+  background-color: white;
+  align-self: center;
+  width: 40rem;
+  height: 40rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 4rem;
+}
+.login-type{
+    margin-top: 4rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #15328887;
+}
+.title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: black;
+}
+.description{
+    margin-top: -2rem;
+    font-size: 1.45rem;
+    font-weight: 700;
+    color: rgb(35, 34, 34);
+}
+.email-input{
+    border: none;
+    height: 2rem;
+    width: 20rem;
+    border: solid rgb(211, 201, 201);
+    border-radius: 20px;
+}
+.password-input{
+    border: none;
+    height: 2rem;
+    width: 20rem;
+    border: solid rgb(211, 201, 201);
+    border-radius: 20px;
+}

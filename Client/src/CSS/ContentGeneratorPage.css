@@ -1,0 +1,13 @@
+.react-flow__node.node > foreignObject > div {
+  width: 100px;
+  height: 100px;
+  background: #fef3c7;
+  border: 2px solid #f59e0b;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #92400e;
+  font-weight: bold;
+}

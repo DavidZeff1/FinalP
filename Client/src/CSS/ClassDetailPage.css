@@ -1,0 +1,73 @@
+
+
+.class-detail-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.documents-container {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+
+.document-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: rgb(155, 209, 216);
+}
+
+.document-card > img {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
+button {
+  background-color: #189ab4;
+  color: rgb(255, 255, 255);
+  width: 8rem;
+  height: 2rem;
+  border-radius: 20px;
+  border: none;
+}
+
+.next-class-card-body-button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.slide {
+  width: 100%;
+  height: 100%;
+  animation: slide-in 0.35s ease forwards;
+}
+
+
+@keyframes slide-in {
+  from {
+    transform: translateX(12%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,57 @@
+.flash-card {
+  text-align: center;
+  height: 20rem;
+  width: 25rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  border: solid black 1px;
+  background-color: #ffffff;
+  font-size: 1rem;
+}
+
+@keyframes flashAnimation {
+  50% {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.concept{
+  font: bold;
+  font-size: larger;
+  font-weight: 900;
+}
+
+.animate-flash {
+  animation: flashAnimation 1s;
+}
+
+.performance-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.perf-box {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: white;
+  border-radius: 4px;
+}
+
+.perf-box.correct {
+  background-color: green;
+}
+
+.perf-box.incorrect {
+  background-color: red;
+}
+
+
+  

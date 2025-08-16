@@ -1,0 +1,9 @@
+.calendar-card-header {
+    display: flex;
+    align-items: center; /* Vertically align icon and text */
+    gap: 10px; /* Space between icon and text */
+}
+.calendar-card-body,img{
+    width: fit-content;
+    height: fit-content;
+}
