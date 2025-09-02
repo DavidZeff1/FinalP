@@ -4,16 +4,13 @@ const storage = multer.memoryStorage();
 const upload = multer({ storage });
 const path = require("path");
 const cors = require("cors");
-const fs = require("fs");
 const pdfParse = require("pdf-parse");
 const OpenAI = require("openai");
 const app = express();
 require("dotenv").config();
-const { createConnectionFunc, insertFlashCardSets } = require("./mySQLdbAdmin");
+const { createConnectionFunc } = require("./mySQLdbAdmin");
 const { findPrerequisiteMap } = require("./preReqCalculator");
 const PORT = process.env.PORT || 5000;
-const admin = require("firebase-admin");
-const serviceAccount = require("./student-manager-app-usa-firebase-adminsdk-zowz1-a40c5120fa.json");
 const { addDays, format } = require("date-fns");
 const {
   initializeClassifier,
@@ -23,12 +20,6 @@ const {
 (async () => {
   await initializeClassifier();
 })();
-
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-});
-
-const firestore = admin.firestore();
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
